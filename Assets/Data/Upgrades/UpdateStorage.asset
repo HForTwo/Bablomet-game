@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24c9af9fa858d34f9606abe1a7c880a, type: 3}
+  m_Name: UpdateStorage
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradesStorage
+  _upgraderEvent: {fileID: 11400000, guid: dc7f6cfcf281f2a4da84ae7250f5f2a6, type: 2}
+  _upgraders:
+  - {fileID: 11400000, guid: 59fbb82ab9f254247bdb14e5e432cbfb, type: 2}
+  - {fileID: 11400000, guid: 4143666db6f37ec4e9092ce353c9ba63, type: 2}
+  - {fileID: 11400000, guid: 25f0c3a1a14d7bf4bbfe5851fc6363fe, type: 2}
+  - {fileID: 11400000, guid: eeddb673a84cc6d4c9d1b49205e47abd, type: 2}

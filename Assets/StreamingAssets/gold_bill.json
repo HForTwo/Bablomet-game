@@ -1,0 +1,244 @@
+{
+  "upgrades": [
+    {
+      "level": 1,
+      "name": "Обычный кошелек",
+      "description": "Золотые купюры пока не появляются",
+      "price": 0,
+      "spawnChanges": 0,
+      "multipliers": 1
+    },
+    {
+      "level": 2,
+      "name": "Подозрительный доллар",
+      "description": "Появляется редкий шанс поймать купюру х2",
+      "price": 500,
+      "spawnChanges": 1.0,
+      "multipliers": 2
+    },
+    {
+      "level": 3,
+      "name": "Смятая пятихатка",
+      "description": "Чуть увеличивает шанс и множитель",
+      "price": 1800,
+      "spawnChanges": 1.5,
+      "multipliers": 3
+    },
+    {
+      "level": 4,
+      "name": "Хрустящая десятка",
+      "description": "Купюры светятся чуть ярче",
+      "price": 50000,
+      "spawnChanges": 2.0,
+      "multipliers": 4
+    },
+    {
+      "level": 5,
+      "name": "Счастливый четвертак",
+      "description": "Бонус за поимку становится весомее",
+      "price": 120000,
+      "spawnChanges": 2.5,
+      "multipliers": 6
+    },
+    {
+      "level": 6,
+      "name": "Юбилейный рубль",
+      "description": "Шанс спавна перешагнул за 3%",
+      "price": 350000,
+      "spawnChanges": 3.2,
+      "multipliers": 8
+    },
+    {
+      "level": 7,
+      "name": "Коллекционная монета",
+      "description": "Золото манит сильнее",
+      "price": 900000,
+      "spawnChanges": 4.0,
+      "multipliers": 10
+    },
+    {
+      "level": 8,
+      "name": "Банковский чек",
+      "description": "Множитель увеличивается до х14",
+      "price": 2400000,
+      "spawnChanges": 4.8,
+      "multipliers": 14
+    },
+    {
+      "level": 9,
+      "name": "Заначка в носке",
+      "description": "Шанс появления растет",
+      "price": 6500000,
+      "spawnChanges": 5.6,
+      "multipliers": 18
+    },
+    {
+      "level": 10,
+      "name": "Свежая сотня",
+      "description": "Отличный куш за поимку",
+      "price": 18000000,
+      "spawnChanges": 6.5,
+      "multipliers": 22
+    },
+    {
+      "level": 11,
+      "name": "Денежная пачка",
+      "description": "Купюры падают заметно чаще",
+      "price": 45000000,
+      "spawnChanges": 7.5,
+      "multipliers": 28
+    },
+    {
+      "level": 12,
+      "name": "Красная купюра",
+      "description": "Существенный прыжок множителя",
+      "price": 110000000,
+      "spawnChanges": 8.5,
+      "multipliers": 35
+    },
+    {
+      "level": 13,
+      "name": "Заграничная валюта",
+      "description": "Иностранные деньги — ценнее",
+      "price": 280000000,
+      "spawnChanges": 9.5,
+      "multipliers": 42
+    },
+    {
+      "level": 14,
+      "name": "Редкий серийный номер",
+      "description": "Коллекционеры требуют золота",
+      "price": 750000000,
+      "spawnChanges": 10.5,
+      "multipliers": 50
+    },
+    {
+      "level": 15,
+      "name": "Малый грант",
+      "description": "Финансовая помощь с неба",
+      "price": 1800000000,
+      "spawnChanges": 11.5,
+      "multipliers": 60
+    },
+    {
+      "level": 16,
+      "name": "Серебряный сертификат",
+      "description": "Ощутимый рост доходов",
+      "price": 4500000000,
+      "spawnChanges": 12.5,
+      "multipliers": 72
+    },
+    {
+      "level": 17,
+      "name": "Золотой сертификат",
+      "description": "Купюры горят богатством",
+      "price": 12000000000,
+      "spawnChanges": 13.5,
+      "multipliers": 85
+    },
+    {
+      "level": 18,
+      "name": "Премия года",
+      "description": "Множитель переваливает за сотню!",
+      "price": 32000000000,
+      "spawnChanges": 14.5,
+      "multipliers": 100
+    },
+    {
+      "level": 19,
+      "name": "Кейс с деньгами",
+      "description": "Шанс появления почти 16%",
+      "price": 85000000000,
+      "spawnChanges": 15.6,
+      "multipliers": 120
+    },
+    {
+      "level": 20,
+      "name": "Акции компании",
+      "description": "Постоянный приток шальных денег",
+      "price": 220000000000,
+      "spawnChanges": 16.8,
+      "multipliers": 145
+    },
+    {
+      "level": 21,
+      "name": "Облигации госзайма",
+      "description": "Серьезные инвестиции",
+      "price": 550000000000,
+      "spawnChanges": 18.0,
+      "multipliers": 175
+    },
+    {
+      "level": 22,
+      "name": "Золотой слиток",
+      "description": "Почти каждая пятая купюра — золотая",
+      "price": 1400000000000,
+      "spawnChanges": 19.2,
+      "multipliers": 210
+    },
+    {
+      "level": 23,
+      "name": "Швейцарский счет",
+      "description": "Огромная надежность и прибыль",
+      "price": 3500000000000,
+      "spawnChanges": 20.4,
+      "multipliers": 250
+    },
+    {
+      "level": 24,
+      "name": "Платиновый слиток",
+      "description": "Множитель клика близок к х300",
+      "price": 8800000000000,
+      "spawnChanges": 21.5,
+      "multipliers": 295
+    },
+    {
+      "level": 25,
+      "name": "Драгоценный чек",
+      "description": "Шанс спавна стремится к лимиту",
+      "price": 22000000000000,
+      "spawnChanges": 22.5,
+      "multipliers": 345
+    },
+    {
+      "level": 26,
+      "name": "Вексель корпорации",
+      "description": "Невероятный множитель клика",
+      "price": 55000000000000,
+      "spawnChanges": 23.4,
+      "multipliers": 400
+    },
+    {
+      "level": 27,
+      "name": "Суверенный фонд",
+      "description": "Управление миллиардами",
+      "price": 135000000000000,
+      "spawnChanges": 24.1,
+      "multipliers": 460
+    },
+    {
+      "level": 28,
+      "name": "Золотой стандарт",
+      "description": "Деньги заполняют экран",
+      "price": 350000000000000,
+      "spawnChanges": 24.6,
+      "multipliers": 520
+    },
+    {
+      "level": 29,
+      "name": "Абсолютная ликвидность",
+      "description": "Безумный доход при поимке",
+      "price": 900000000000000,
+      "spawnChanges": 24.9,
+      "multipliers": 580
+    },
+    {
+      "level": 30,
+      "name": "Бесконечная банкнота",
+      "description": "Максимальный хардкорный лимит (25%) и множитель х700!",
+      "price": 2500000000000000,
+      "spawnChanges": 25.0,
+      "multipliers": 700
+    }
+  ]
+}

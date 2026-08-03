@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b31939eeaed4004a892de2ee122ba20, type: 3}
+  m_Name: Passive income
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveIncome
+  _jsonFileName: passive_income
+  _levelNames: []
+  _levelDescriptions: []
+  _upgraderIcons: {fileID: 6347433592706416027, guid: f900f8c46b93a95479fb6f010f78713a, type: 3}
+  _prices: []
+  _upgradesStorage: {fileID: 11400000, guid: d8a8de7832f03ea4a917c760eceb9ec2, type: 2}
+  upgradeType: 2
+  _moneyPerSecond: []
+  _maxLevel: 80

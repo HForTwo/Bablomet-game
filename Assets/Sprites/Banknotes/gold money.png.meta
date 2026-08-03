@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 85eb95d6d4910a94785664ad2ef3b19b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 643331502039687039
+    second: gold money-no-bg-preview (carve.photos)_0
+  - first:
+      213: -5068307247212016363
+    second: gold money-no-bg-preview (carve.photos)_1
+  - first:
+      213: 1054762337120963767
+    second: gold money-no-bg-preview (carve.photos)_2
+  - first:
+      213: -521549237561481883
+    second: gold money-no-bg-preview (carve.photos)_3
+  - first:
+      213: -6445390320825705301
+    second: gold money-no-bg-preview (carve.photos)_4
+  - first:
+      213: -653311389743072195
+    second: gold money-no-bg-preview (carve.photos)_5
+  - first:
+      213: 6441257596445961254
+    second: gold money-no-bg-preview (carve.photos)_6
+  - first:
+      213: 6231199023037303003
+    second: gold money-no-bg-preview (carve.photos)_7
+  - first:
+      213: 2860163494936804652
+    second: gold money-no-bg-preview (carve.photos)_8
+  - first:
+      213: 695883380432866499
+    second: gold money-no-bg-preview (carve.photos)_9
+  - first:
+      213: 735884656776018330
+    second: gold money-no-bg-preview (carve.photos)_10
+  - first:
+      213: -8459238870249638509
+    second: gold money-no-bg-preview (carve.photos)_11
+  - first:
+      213: -622773103185301675
+    second: gold money-no-bg-preview (carve.photos)_12
+  - first:
+      213: 4958661438733965784
+    second: gold money-no-bg-preview (carve.photos)_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 839
+        width: 213
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fd4e3b7929de800800000000000000
+      internalID: 643331502039687039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 840
+        width: 213
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dc3656961c9a9b0800000000000000
+      internalID: -5068307247212016363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 840
+        width: 206
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc4e8ad1c443ae00800000000000000
+      internalID: 1054762337120963767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 839
+        width: 206
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565a5425bb513c8f0800000000000000
+      internalID: -521549237561481883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_4
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 839
+        width: 203
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac517007af5d86a0800000000000000
+      internalID: -6445390320825705301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 411
+        width: 213
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cb5ae90c8fee6f0800000000000000
+      internalID: -653311389743072195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 411
+        width: 213
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ca2fe18a1f36950800000000000000
+      internalID: 6441257596445961254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 411
+        width: 206
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd846e44f7aa97650800000000000000
+      internalID: 6231199023037303003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 411
+        width: 205
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d7f3b7b8751b720800000000000000
+      internalID: 2860163494936804652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_9
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 411
+        width: 204
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc8ccf5f3648a900800000000000000
+      internalID: 695883380432866499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 213
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a997bca4233663a00800000000000000
+      internalID: 735884656776018330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 20
+        width: 213
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395f794011fba9a80800000000000000
+      internalID: -8459238870249638509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_12
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 20
+        width: 206
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fe8f889277b57f0800000000000000
+      internalID: -622773103185301675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold money-no-bg-preview (carve.photos)_13
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 20
+        width: 205
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d95a217e44b0d440800000000000000
+      internalID: 4958661438733965784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gold money-no-bg-preview (carve.photos)_0: 643331502039687039
+      gold money-no-bg-preview (carve.photos)_1: -5068307247212016363
+      gold money-no-bg-preview (carve.photos)_10: 735884656776018330
+      gold money-no-bg-preview (carve.photos)_11: -8459238870249638509
+      gold money-no-bg-preview (carve.photos)_12: -622773103185301675
+      gold money-no-bg-preview (carve.photos)_13: 4958661438733965784
+      gold money-no-bg-preview (carve.photos)_2: 1054762337120963767
+      gold money-no-bg-preview (carve.photos)_3: -521549237561481883
+      gold money-no-bg-preview (carve.photos)_4: -6445390320825705301
+      gold money-no-bg-preview (carve.photos)_5: -653311389743072195
+      gold money-no-bg-preview (carve.photos)_6: 6441257596445961254
+      gold money-no-bg-preview (carve.photos)_7: 6231199023037303003
+      gold money-no-bg-preview (carve.photos)_8: 2860163494936804652
+      gold money-no-bg-preview (carve.photos)_9: 695883380432866499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
