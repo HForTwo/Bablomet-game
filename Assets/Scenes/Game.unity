@@ -4449,7 +4449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07684d64bd208c4a8130657d2e58475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadData
-  _isDebugging: 1
+  _isDebugging: 0
   _onLoadData: {fileID: 11400000, guid: 3950b42bec8a6b04896ff7a056cdcec1, type: 2}
   _onEnterTheGame: {fileID: 11400000, guid: 120bb9e2256454f4897cb685eb08e547, type: 2}
   _upgradesCount: 4

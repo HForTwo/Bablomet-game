@@ -5,31 +5,40 @@ using YG;
 public class SaveData : MonoBehaviour
 {
     [SerializeField] private GameEvent _saveGame;
-    [SerializeField] private float _saveIntervalSeconds = 600f;
+    [SerializeField] private float _saveIntervalSeconds = 60f;
     private Coroutine _saveCoroutine;
 
-    private void OnApplicationQuit()
+    private void Save()
     {
         _saveGame.Raise();
         YG2.SaveProgress();
     }
 
+    private void OnApplicationQuit()
+    {
+        Save();
+    }
+
     private void OnApplicationPause(bool pause)
     {
         if (pause)
-        {
-            _saveGame.Raise();
-            YG2.SaveProgress();
-        }
+            Save();
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        if (!focus)
+            Save();
     }
 
     private IEnumerator AutoSaveRoutine()
     {
+        WaitForSeconds wait = new(_saveIntervalSeconds);
+
         while (true)
         {
-            yield return new WaitForSeconds(_saveIntervalSeconds);
-            _saveGame.Raise();
-            YG2.SaveProgress();
+            yield return wait;
+            Save();
         }
     }
 

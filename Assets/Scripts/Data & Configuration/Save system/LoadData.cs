@@ -7,19 +7,25 @@ public class LoadData : MonoBehaviour
 {
     public static LoadData Instance { get; private set; }
 
-    [SerializeField] private bool _isDebugging;
+    [SerializeField] private bool _isDebugging = false;
     [SerializeField] private GameDataEvent _onLoadData;
     [SerializeField] private GameEvent _onEnterTheGame;
     [SerializeField, Range(0, 10)] private int _upgradesCount;
     private WaitForEndOfFrame _waitForEndOfFrame = new();
     private bool _getSdk = false;
     private bool _getJsons = false;
+    private bool _gameInitialized = false;
 
     public void GetJsonData() => _getJsons = true;
     private void GetSdkData() => _getSdk = true;
 
     private void InitGame()
     {
+        if (_gameInitialized)
+            return;
+
+        _gameInitialized = true;
+
         if (YG2.saves.UpgradesLevels == null || YG2.saves.UpgradesLevels.Length < _upgradesCount)
             YG2.saves.UpgradesLevels = new int[_upgradesCount];
 
@@ -42,15 +48,10 @@ public class LoadData : MonoBehaviour
 
     private IEnumerator Start()
     {
-        do
-        {
-            if (_getSdk)
-                if (YG2.isSDKEnabled)
-                    InitGame();
-
+        while (!YG2.isSDKEnabled || !_getSdk || !_getJsons)
             yield return _waitForEndOfFrame;
-        }
-        while (!YG2.isSDKEnabled || !_getSdk || !_getJsons);
+
+        InitGame();
     }
 
     private void Awake()

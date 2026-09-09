@@ -7,14 +7,14 @@
         false,
         false
     ],
-    "idSave": 4989,
+    "idSave": 5005,
     "IsFirstSession": false,
-    "Balance": 10.0,
+    "Balance": 5.0,
     "UpgradesLevels": [
-        18,
+        1,
         13,
-        21,
+        1,
         4
     ],
-    "lastExitTime": "2026-08-04T14:07:49.5600624Z"
+    "lastExitTime": "2026-09-09T13:21:59.6885406Z"
 }

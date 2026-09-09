@@ -11,28 +11,42 @@ public class OfflineEarning : MonoBehaviour
     [SerializeField] private DoubleDoubleEvent _onOfflineIncome;
     private int _minutesCollect;
     private double _earningPerSecond;
+    private bool _offlineRewardCalculated;
 
     public void CalculateOfflineEarning()
     {
+        if (_offlineRewardCalculated)
+            return;
+
+        _offlineRewardCalculated = true;
+
         string lastExitStr = YG2.saves.lastExitTime;
 
         if (string.IsNullOrEmpty(lastExitStr))
             return;
 
-        DateTime lastExitTime = DateTime.Parse(lastExitStr, CultureInfo.InvariantCulture, DateTimeStyles.AdjustToUniversal);
+        if (!DateTime.TryParse(lastExitStr, CultureInfo.InvariantCulture, DateTimeStyles.RoundtripKind, out DateTime lastExitTime))
+            return;
+
         DateTime now = DateTime.UtcNow;
 
-        float offlineSeconds = (float)(now - lastExitTime).TotalSeconds;
-        float maxSeconds = _minutesCollect * 60f;
-
-        if (offlineSeconds > maxSeconds)
-            offlineSeconds = maxSeconds;
-
-        if (offlineSeconds < 29f)
+        double offlineSeconds = (now - lastExitTime).TotalSeconds;
+        if (offlineSeconds <= 0)
             return;
+
+        double maxSeconds = _minutesCollect * 60d;
+        if (maxSeconds <= 0)
+            return;
+
+        offlineSeconds = Math.Min(offlineSeconds, maxSeconds);
+        if (offlineSeconds < 30d)
+            return;
+
         double earned = Math.Truncate(offlineSeconds * _earningPerSecond);
-        if (earned > 0)
-            _onOfflineIncome.Raise(earned, offlineSeconds);
+        if (earned <= 0)
+            return;
+
+        _onOfflineIncome.Raise(earned, offlineSeconds);
     }
 
     public void GetUpgrade(Upgrader newUpgreder, int level)
@@ -45,7 +59,7 @@ public class OfflineEarning : MonoBehaviour
 
     public void SaveTime()
     {
-        YG2.saves.lastExitTime = DateTime.UtcNow.ToString("o");
+        YG2.saves.lastExitTime = DateTime.UtcNow.ToString("o", CultureInfo.InvariantCulture);
     }
 
     private void OnEnable()
